@@ -1,6 +1,7 @@
 import heapq as hq
 
-# リストをヒープ化、たぶんO(logN)?
+# リストをヒープ化
+# O(logN)?
 a = [1, 6, 8, 0, -1]
 hq.heapify(a)
 print(a)
